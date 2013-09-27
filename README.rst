@@ -1,7 +1,11 @@
 Django Leap Motion
 ==================
 
-Control your app using Leap Motion
+Controll a django app with gestures using the Leap Motion device. 
+
+For more information about the controller, please visit [https://www.leapmotion.com/](https://www.leapmotion.com/) and for more development ressources, protocoll info, etc. visit [http://js.leapmotion.com/](http://js.leapmotion.com/).
+
+
 
 Installation
 ------------
@@ -38,18 +42,18 @@ Add the ``leapmotion`` URLs to your ``urls.py``
         url(r'^leapmotion/', include('leapmotion.urls')),
     )
 
-Don't forget to migrate your database
+Don't forget to collect the static media.
 
 .. code-block:: bash
 
-    ./manage.py migrate leapmotion
+    ./manage.py collectstatic 
 
 
 Usage
 -----
 
-TODO: Describe usage or point to docs. Also describe available settings and
-templatetags.
+You need to have the LEAP SDK / WebSocket server installed (SDK version 0.7.1+). 
+You also need a modern browser. 
 
 
 Contribute
