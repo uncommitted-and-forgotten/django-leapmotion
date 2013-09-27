@@ -1,5 +1,5 @@
 Django Leap Motion
-============
+==================
 
 Control your app using Leap Motion
 
