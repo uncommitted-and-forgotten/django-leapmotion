@@ -1,7 +1,7 @@
 Django Leap Motion
 ==================
 
-Controll a django app with gestures using the Leap Motion device. 
+Controll a django app with gestures using the Leap Motion device.  
 
 For more information about the controller, please visit [https://www.leapmotion.com/](https://www.leapmotion.com/) and for more development ressources, protocoll info, etc. visit [http://js.leapmotion.com/](http://js.leapmotion.com/).
 
@@ -10,7 +10,7 @@ For more information about the controller, please visit [https://www.leapmotion.
 Installation
 ------------
 
-To get the latest stable release from PyPi
+(NOT YET DONE!) In the future, to get the latest stable release from PyPi
 
 .. code-block:: bash
 
@@ -42,7 +42,7 @@ Add the ``leapmotion`` URLs to your ``urls.py``
         url(r'^leapmotion/', include('leapmotion.urls')),
     )
 
-Don't forget to collect the static media.
+Don't forget to collect the static files.
 
 .. code-block:: bash
 
