@@ -1,0 +1,9 @@
+include AUTHORS
+include LICENSE
+include DESCRIPTION
+include CHANGELOG.txt
+include README.md
+graft leapmotion
+global-exclude *.orig *.pyc *.log *.swp
+prune leapmotion/tests/coverage
+prune leapmotion/.ropeproject
