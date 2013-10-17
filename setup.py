@@ -47,7 +47,7 @@ setup(
     platforms=['OS Independent'],
     keywords='django, leap motion',
     author='Philippe O. Wagner',
-    author_email='wagner.ch',
+    author_email='wagner@arteria.ch',
     url="https://github.com/philippeowagner/django-leapmotion",
     packages=find_packages(),
     include_package_data=True,
